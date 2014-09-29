@@ -1,0 +1,515 @@
+/*==========================================================/
+* CSS FOR GAMERWARZONE
+/===========================================================*/
+body{font-family:Arial,Verdana,Tahoma;font-size:9pt;line-height:135%;margin:0px;padding:0px;/* required for Opera to have 0 margin */
+background:#252525}
+img{border:0;}
+table,td{padding:5px;}
+/*---------------------------------------/
+LAYOUT SETTINGS
+/----------------------------------------*/
+#wrapper{text-align:left;margin:0px auto;width:984px;background: #D7DADA;}
+#wrapper2{background:transparent;border-right:2px solid #FFF;border-top:0;width:685px;margin:0px 0px 0px 0px;}
+#wrapper3{width:680px;margin:0px 0px 0px 5px;float:left;height:auto;}
+/*-------------------------------------/
+LINKS
+/-------------------------------------*/
+a:link,
+a:visited,
+a:active{color:#F0EBCC;text-decoration:none;}
+a:hover{cursor:pointer;cursor:hand;}
+/*---------------------------------------/
+header + logo + big head
+/---------------------------------------*/
+
+/*---------------------------------------/
+menubar
+/---------------------------------------*/
+.menubar{margin:0px 0px 0px 175px;}
+/*---------------------------------------/
+MEMBERBAR
+/---------------------------------------*/
+#topbar {
+background: url(../images/topbar.png) no-repeat;
+height: 34px;
+width: 986px;
+margin: 5px auto 0px auto;
+
+}
+
+#topbar .memberbar {
+width: 500px;
+float: left;
+padding: 5px 0px 0px 35px;
+font-size: 10px;
+color: #a4a6a5;
+}
+#topbar .memberbar .member-links{
+padding: 4px 0px 0px 270px;
+font-size: 10px;
+color: #a4a6a5;
+}
+#topbar .memberbar .member-links a{
+color: #a1a5a4;
+font-style: italic;
+text-decoration: none;
+}
+
+#topbar .memberbar .member-links-active{
+padding: 8px 0px 0px 15px;
+font-size: 12px;
+color: #222;
+list-style:none;
+float:left;
+margin: 0;
+}
+#topbar .memberbar .member-links-active a{
+color: #222;
+display:block;
+}
+
+#topbar .memberbar .member-links-active .logout {
+background: url(../images/logout.png) no-repeat;
+height: 20px;
+width: 67px;
+}
+
+#topbar .memberbar .member-links-active,#topbar .memberbar .member-links-active ul{padding:3px;list-style:none;}
+#topbar .memberbar .member-links-active li{width:110px;margin-left:5px;float:left}
+#topbar .memberbar .member-links-active li ul{width:120px;position:absolute;left:-999em;}
+#topbar .memberbar .member-links-active li:hover ul,
+#topbar .memberbar .member-links-active li li:hover ul{left:auto;}
+#topbar .memberbar .member-links-active li.menubutton{width:auto;margin:0;}
+#topbar .memberbar .member-links-active .menubutton a{margin:0 4px;padding:3px;}
+#topbar .memberbar .member-links-active .menubutton a:hover{
+display:block;
+color:#FFF;
+border-bottom:0;
+background: #222;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3px;
+}
+#topbar .memberbar .member-links-active .menu_down a{background:transparent;padding:3px 5px;color:#222;font-size:12px;}
+#topbar .memberbar .member-links-active .menu_down{padding:10px 0px 3px 0px;margin-left:0px;background:#F6F4F5;font-size:12px; -moz-border-radius: 5px;
+-webkit-border-radius: 5px;}
+#topbar .memberbar .member-links-active .menu_down li:hover{background:#F2F2F3;}
+
+#topbar .memberbar form {
+float: left;
+border: 0; margin: 0;padding:0;
+
+}
+#topbar .memberbar input {
+background: url(../images/memberbarinput.png) no-repeat;
+height:20px;
+width: 91px;
+border: 0; margin: 0;padding:4px;
+color: #FFF;
+}
+
+#topbar .memberbar .submit {
+background: url(../images/loginbtn.png) no-repeat;
+height:30px;
+width: 56px;
+border: 0; margin: 0;
+}
+
+#topbar .foruminfo {
+width: 400px;
+text-align: right;
+float: right;
+padding: 10px 35px 0px 0px;
+font-size: 10px;
+color: #a4a6a5;
+}
+#topbar .foruminfo strong {
+color: #08376b;
+}
+
+/*---------------------------------------/
+TOPMENU
+/---------------------------------------*/
+#header {
+margin: 0 auto;
+width: 986px;
+height:119px;
+background: ;
+}
+
+#header .logo {
+background: url(../images/logo.png) no-repeat;
+height:90px;
+}
+
+#header .nav {
+background: url(../images/nav.png) no-repeat;
+height:29px;
+width: 974px;
+margin:0;padding:2px 0px 0px 12px;
+}
+
+#header .nav a  {
+display: block;
+padding-top: 2px;
+text-decoration: none;
+height: 22px;
+}
+#header .nav .home-off{
+background: url(../images/nav_home.png) no-repeat;
+width: 102px;
+float: left;
+display: block;
+}
+
+#header .nav .forum-off {
+background: url(../images/nav_forum.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .ps-off {
+background: url(../images/nav_ps.png) no-repeat;
+width: 102px;
+float: left;
+}
+#header .nav .affiliates-off {
+background: url(../images/nav_affiliates.png) no-repeat;
+width: 102px;
+float: left;
+}
+#header .nav .dl-off {
+background: url(../images/nav_dl.png) no-repeat;
+width: 102px;
+float: left;
+}
+#header .nav .replays-off {
+background: url(../images/nav_replays.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .affiliates-off {
+background: url(../images/nav_affiliates.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .xwis-off {
+background: url(../images/nav_xwis.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .articles-off {
+background: url(../images/nav_articles.png) no-repeat;
+width: 102px;
+float: left;
+}
+/* HOVER */
+
+#header .nav .home-on{
+background: url(../images/nav_home-hover.png) no-repeat;
+width: 102px;
+float: left;
+display: block;
+}
+
+#header .nav .forum-on {
+background: url(../images/nav_forum-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .ps-on {
+background: url(../images/nav_ps-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+#header .nav .affiliates-on {
+background: url(../images/nav_affiliates-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+#header .nav .dl-on {
+background: url(../images/nav_dl-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+#header .nav .replays-on {
+background: url(../images/nav_replays-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .affiliates-on {
+background: url(../images/nav_affiliates-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .xwis-on {
+background: url(../images/nav_xwis-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+
+#header .nav .articles-on {
+background: url(../images/nav_articles-hover.png) no-repeat;
+width: 102px;
+float: left;
+}
+/*-----------------------------------/
+SUBMENU
+/------------------------------------*/
+
+/*----------------------------------/
+FOOTER
+/-----------------------------------*/
+#footer{width:984px;height:30px;font-size:7pt;color:#FFF;background:#222;border:0px;border-top:1px solid #47505a;}
+#footer .left{float:left;padding:3px 0px 3px 10px;}
+#footer .right{float:right;padding:3px 10px 3px 0px;text-align:right;}
+#footer a{color:#E9E9E9;}
+/*-------------------------------------/
+NAVIGATION
+/-------------------------------------*/
+.nav{background:#E9E9E9;width:685px;border-bottom:1px dotted #909090;padding:0px 0px 0px 3px;font-size:7pt;margin:0px 5px 0px 0px;}
+/*-------------------------------------/
+RIGHT MENU
+/-------------------------------------*/
+#right{float:right;width:295px;}
+.online{
+background:#D7DADA;
+color:#08376B;
+font-weight:bold;
+margin:0px 10 0 10px;
+padding:2px 5px 2px 15px;
+text-transform:uppercase;
+width:267px;
+}
+.online em{text-transform:none;font-size:8pt;color:#222;font-weight:normal;}
+.online a{color:222;}
+#rightmenu{width:269px;color:white;margin:0px 10px 0px 10px;}
+#rightmenu ul{list-style-type:none;padding:0px;}
+#rightmenu li{padding:1px;border-bottom:1px dotted #404040;margin:0px 13px 0px 0px;}
+#rightmenu .rightmenu_box{
+background: #0e0e0e url(../images/rightbox.png) repeat-x;
+color: #FFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+font-size:13px;text-align:left;padding-top:10px;padding-left:20px;
+}
+#rightmenu .title{color:#F0EBCC;font-size:14px;font-weight:bold;margin-bottom:10px;}
+#rightmenu a{display:block;text-decoration:none;color:#FFF;font-weight:bold;padding:2px;font-size:12px;}
+#rightmenu a:hover{
+color: #222;
+background: #f4f5f6;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#rightmenu .left{float:left;padding-top:3px;vertical-align:middle;}
+#rightmenu .right{float:right;padding-top:15px;}
+.rightmenu-button,
+.rightmenu-button a{text-align:center;font-size:8pt;color:#f9f9f9;}
+/*-------------------------------------/
+CONTENT
+/-------------------------------------*/
+.contentbox{
+line-height:150%;
+padding:3px;
+margin-bottom:3px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background: #0e0e0e url(../images/rightbox.png) repeat-x;
+color: #FFF;
+}
+.commentbox{background-color:#fff;border:1px solid #888888;line-height:140%;padding:8px;margin-bottom:6px;}
+.content_post{margin:5px 5px 5px 180px;}
+.content_center{text-align:center;}
+.content_header{background:#F8EEC2;font-size:20px;color:#967535;font-weight:bold;border:1px solid #ded4a6;margin:0px 0px 5px 0;padding:10px 7px;}
+.content_title,
+.content_title a{font-weight:bold;font-size:18px;padding:5px 0px 5px 0px;margin:6px 0px 6px 0px;color:#F0EBCC;}
+.topic_image,
+.replay_map{float:left;margin:5px 5px 0px 5px;height:80px;}
+.game_image{float:left;margin:5px 5px 0px 5px;height:130px;}
+.topic_image img{border:1px solid #F0EBCC;margin:3px 15px 5px 0;padding:1px;}
+.replay_map{margin:3px 15px 5px 0;padding:1px;}
+.content_info{font-size:10px;margin:3px 3px 3px 180px;border-top:1px dotted #909090;border-bottom:1px dotted #909090;}
+.content_info em{color:#aaa;font-weight:normal;font-style:normal;}
+.content_info .author{font-size:10pt;font-weight:bold;font-style:normal;}
+.content_info .rating{text-align:center;}
+.content_button_back a{float:right;text-align:center;font-size:15px;color:#464B51;font-weight:bold;border:1px solid #FFF;background:#F5FAFE;width:120px;padding:5px;}
+.contentbox .box{background:#FFF;color:#464B51;font-size:20px;margin:5px;padding:10px 7px;}
+.replay_info{color:#3C5082;font-size:10px;}
+.replay_info em{color:#222;font-size:10px;font-weight:bold;}
+.replay_info .download{background:#345E8D;border:1px solid #FFF;font-weight:bold;font-size:15px;padding:3px;text-align:center;}
+.replay_info .download a{color:#FFF;}
+.replay_info .mapname{background:#E8F4FF;border:1px solid #A3BCDA;padding:2px;margin:2px;width:110px;color:#3C5082;font-size:10px;font-weight:bold;text-align:center;}
+.ratebox,
+.downloadbox{background:#E8F4FF;border:1px solid #A3BCDA;padding:5px;margin:2px;width:120px;color:#3C5082;float:left;font-size:14px;font-weight:bold;text-align:center;}
+/*-------------------------------------/
+RATE 
+/-------------------------------------*/
+#rate{background:#E8F4FF;border:1px solid #A3BCDA;padding:5px;margin:2px;color:#3C5082;float:left;text-align:center;width:120px;}
+#rate a{display:block;padding:5px;margin:2px;color:#3C5082;width:120px;font-size:14px;font-weight:bold;}
+#rate,#rate ul{padding:3px;list-style:none;}
+#rate li{width:110px;margin-left:5px;}
+#rate li ul{width:120px;position:absolute;left:-999em;}
+#rate li:hover ul,#rate li li:hover ul{left:auto;}
+#rate li.menubutton{width:auto;margin:0;border:0;}
+#rate .menubutton a{margin-left:0px;padding:0px;border-top:0;border-bottom:0;}
+#rate .menubutton:hover{display:block;color:#FFF;border-bottom:0;}
+#rate .menu_down a{background:transparent;padding-left:5px;color:#FFF;font-size:8pt;}
+#rate .menu_down{padding:3px 0px 3px 0px;border-top:0;margin-left:0px;background:#F2F2F3;border:1px solid #d7d2d6;font-size:8pt;}
+#rate .menu_down li:hover{background:#F2F2F3;}
+/*-------------------------------------/
+MISC 
+/-------------------------------------*/
+.borderwrap,
+.borderwrapm{background:#d9d9d9;padding:0px;margin:0px;}
+.clear{clear:both;margin:0;padding:0;}
+.dotted{border-top:1px dotted #CCC;}
+.dotted-image{background:url(../images/dotted-image.gif)repeat-x;width:100%;height:7px;}
+.submenu-under{background:url(../images/submenu-under.gif)repeat-x;width:100%;height:10px;}
+.desc{font-size:8pt;}
+.extra-menu{background:url(../images/topmenu-active.gif) repeat-x;height:35px;width:100%;}
+/*---------------------------------------/
+FORM STYLE
+/---------------------------------------*/
+input,
+textarea,
+select{background:#e6e6e9;border:1px solid #d3d3d3;color:#222;padding:3px;margin:3px;font-weight:bold;vertical-align:middle;}
+select{background:#e6e6e9;color:#222;border:1px solid #d3d3d3;}
+input.button{margin:0;width:auto;cursor:pointer;}
+optgroup option{font-family:verdana,helvetica,sans-serif;font-size:12px;}
+.textarea,
+.searchinput,
+.button,
+.gobutton{background:#FFF;border:1px solid #999;color:#222;font-family:Verdana;font-size:11px;font-weight:bold;padding:3px 4px 3px 4px;vertical-align:middle;}
+#memberbar input{background:url(../images/topmenu-over.gif)repeat-x;border:1px solid #252525;padding:0px 3px 0px 3px;margin:0px;color:white;vertical-align:middle;font-weight:normal;font-size:10px;}
+/*----------------------------------------/
+StatsBOX
+/------------------------------------------*/
+.statsbg{;height:90px;}
+.statsbox{
+margin:10px 10px 0;
+float:left;
+font-family:verdana;font-size:10px;
+height:90px;
+padding:2px 0 0 15px;width:237px;
+color: #fff;
+background: #0e0e0e url(../images/rightbox.png) repeat-x;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.statsad{float:right;margin-right:4px;margin-top:20px;}
+.statsbox_title{color:#F0EACC;font-weight:bold;margin-bottom:3px;}
+.statsbox_link a{border-bottom:1px dotted #5A5D62;color:#9EC6F1;display:block;height:15px;margin:0 0 2px;padding:5px 0 0;text-decoration:none;width:228px;}
+/*----------------------------------------/
+SLIDESHOW
+/------------------------------------------*/
+.highlightbox{width:672px;height:185px;float:left;z-index:995;}
+.highlightbox_title{width:350px;font-size:24px;font-family:Arial;color:#fff3b6;padding-bottom:5px;margin-top:5px;margin-left:10px;font-weight:bold;}
+.highlightbox_description{width:300px;font-size:14px;font-family:Arial;color:#fff;margin-left:10px;font-weight:bold;}
+#highlight_nav{color:#fff;font-weight:bold;font-size:14px;text-align:left;z-index:998;float:left;position:relative;margin-top:-24px;width:644px;height:24px;}
+.next_title{color:#fff;font-weight:bold;font-size:14px;text-align:left;z-index:997;position:relative;float:left;margin-top:-24px;margin-left:100px;width:400px;height:30px;}
+#next1 img{margin-right:10px;}
+#prev1 img{margin-left:5px;}
+#highlight_nav a{color:#fff;font-weight:bold;font-size:14px;text-decoration:none;margin:0 2px;}
+#highlight_nav a.activeSlide{font-weight:bold;font-size:14px;}
+#highlight_nav a:focus{font-weight:bold;font-size:14px;outline:none;}
+#controls{z-index:996;position:relative;float:left;margin-top:-30px;background-color:#000000;-moz-opacity:0.50;opacity:0.50;filter:alpha(opacity=50);width:650px;height:30px;}
+/*-------------------------------------------------/
+TABBER
+/--------------------------------------------------*/
+.tabberlive .tabbertabhide{display:none;}
+/*--------------------------------------------------/
+.tabber = before the tabber interface is set up
+.tabberlive = after the tabber interface is set up
+/--------------------------------------------------*/
+.tabber{}
+.tabberlive{width:680px;height:100%;}
+/*--------------------------------------------------/
+ul.tabbernav = the tab navigation list
+li.tabberactive = the active tab
+/--------------------------------------------------*/
+.tabbernav a{background:#0E0E0E;height:20px;background-repeat:no-repeat;border-right:1px solid #909090;}
+ul.tabbernav{width:678px;margin:0;padding:0;background-image:url(../images/topmenu.gif);background-repeat:repeat-x;height:25px;float:left;}
+ul.tabbernav li{list-style:none;margin:0;display:inline;padding:0;}
+ul.tabbernav li a,ul.tabbernav li a:link,ul.tabbernav li a:visited{padding:3px 10px 3px 10px;color:#dce0e4;display:block;width:auto;text-decoration:none;font-family:Tahoma;font-size:11px;font-weight:bold;float:left;}
+ul.tabbernav a:hover{color:#fff;background-image:url(../images/topmenu-over.gif);background-position:top right;background-repeat:repeat-x;}
+ul.tabbernav li.tabberactive a{background-image:url(../images/topmenu-active.gif);background-position:top right;background-repeat:repeat-x;border-left:1px solid #CCC;height:20px;color:#464b51;padding:3px 10px 3px 10px;}
+ul.tabbernav li.tabberactive a:hover{color:#464b51;padding:3px 10px 3px 10px;}
+/*--------------------------------------------------/
+.tabbertab = the tab content
+Add style only after the tabber interface is set up (.tabberlive)
+/--------------------------------------------------*/
+.tabberlive .tabbertab{padding:0px;border-top:0;}
+.tabberlive .tabbertab h2{display:none;}
+.tabberlive .tabbertab h3{display:none;}
+.tabberlive#tab1{}
+.tabberlive#tab2{}
+.tabberlive#tab2 .tabbertab{height:200px;overflow:auto;}
+/*--------------------------------------/
+QUOTE/CODE
+/-------------------------------------*/
+.quotetop{background:url(../images/topmenu.gif);border:1px dotted #505050;border-bottom:0;border-left:1px solid #505050;color:#FFF;font-weight:bold;font-size:10px;margin:2px auto 0 auto;padding:5px;}
+.quotemain{background:#f9f9f9;border:1px dotted #505050;border-left:1px solid #505050;border-top:0;color:#505050;padding:4px;margin:0 auto 0 auto;}
+.codetop,
+.sqltop,
+.htmltop{background:#FDDBCC url(../images/css_img_code.gif) no-repeat right;color:#000;font-weight:bold;margin:0 auto 0 auto;padding:3px;}
+.codemain,
+.sqlmain,
+.htmlmain{background:#FAFCFE;border:1px dotted #000;color:#465584;font-family:Courier,Courier New,Verdana,Arial;margin:0 auto 0 auto;padding:2px;}
+#QUOTE,
+#CODE{background:#FAFCFE;border:1px solid #000;color:#465584;font-family:Verdana,Arial;font-size:11px;padding:2px;white-space:normal;}
+#CODE{font-family:Courier,Courier New,Verdana,Arial;}
+/*---------------------------------------/
+REDIRECT
+/---------------------------------------*/
+#redirectwrap{background:#FFF;border:1px solid #505662;margin:200px auto 0 auto;text-align:left;width:500px;}
+#redirectwrap h4{background:#0A1823;border-bottom:1px solid #505662;color:#FFF;font-size:14px;margin:0;padding:5px;}
+#redirectwrap p{margin:0;padding:5px;}
+#redirectwrap p.redirectfoot{background:#0A1823;border-top:1px solid #505662;text-align:center;color:white;}
+#redirectwrap p.redirectfoot a{color:white;}
+/*---------------------------------------/
+ERROR
+/---------------------------------------*/
+.errorwrap{background:#F2DDDD;border:1px solid #992A2A;border-top:0;margin:5px;padding:0;}
+.errorwrap h4{background:#E3C0C0;border:1px solid #992A2A;border-left:0;border-right:0;color:#992A2A;font-size:12px;font-weight:bold;margin:0;padding:5px;}
+.errorwrap p{background:transparent;border:0;color:#992A2A;margin:0;padding:8px;}
+/*---------------------------------------/
+ROWS
+/---------------------------------------*/
+.row1{background:#FFF;}
+.row2{background:#F9F9F9;}
+.row2b{background:#FFF;}
+/*---------------------------------------/
+PAGINATION
+/---------------------------------------*/
+.pagelink,
+.pagelinklast,
+.pagecurrent,
+.minipagelink,
+.minipagelinklast{background:#e9e9e9;border:1px solid #505662;padding:2px 4px 2px 4px;}
+.pagelinklast,
+.minipagelinklast{background:#F9F9F9;}
+.pagecurrent{background:#1c2127;color:white;}
+.minipagelink,
+.minipagelinklast{border:1px solid #505662;font-size:10px;margin:0 1px 0 0;}
+.pagelink a:active,
+.pagelink a:visited,
+.pagelink a:link,
+.pagelinklast a:active,
+.pagelinklast a:visited,
+.pagelinklast a:link,
+.pagecurrent a:active,
+.pagecurrent a:visited,
+.pagecurrent a:link,
+.minipagelink a:active,
+.minipagelink a:visited,
+.minipagelink a:link,
+.minipagelinklast a:active,
+.minipagelinklast a:visited,
+.minipagelinklast a:link{text-decoration:none;color:#222;}
